@@ -1,0 +1,60 @@
+:root {
+    --bg-color: #181c27;
+    --front-bg-color: #252d38;
+    --front-bg-color-hover: #384454;
+    --text-color: hsla(0, 0%, 100%, 0.86);
+    --el-bg-color: #ffffff;
+    --el-bg-color-overlay: #f5f7fa;
+    --el-text-color-primary: #303133;
+    --el-text-color-secondary: #909399;
+    --el-border-color: #dcdfe6;
+    --el-fill-color-light: #f5f7fa;
+    --el-fill-color-darker: #e4e7ed;
+    --primary-color: #1a73e8;
+    --secondary-color: #f8f9fa;
+    --accent-color: #ff9800;
+}
+
+#app {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+::-webkit-scrollbar
+{
+    width:16px;
+    height:16px;
+    background-color: var(--bg-color);
+}
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius:10px;
+    background-color: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius:10px;
+    -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);
+    background-color: var(--front-bg-color);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--bg-color);
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, system-ui, Roboto, PingFang SC, Hiragino Sans GB, Source Han Sans SC, Noto Sans CJK SC, Noto Sans SC, WenQuanYi Micro Hei, WenQuanYi Zen Hei, Helvetica Neue, Microsoft YaHei, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--text-color);
+}
